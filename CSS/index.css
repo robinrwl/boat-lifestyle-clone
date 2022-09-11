@@ -179,6 +179,7 @@ height: 45px;
     color: white;
     background-color: inherit;
     font-family: inherit;
+      border:0;
     margin: 0;
   }
   
@@ -425,6 +426,7 @@ border: 1px solid #f7c20a;
 height: 437px;
 background: #e4dddd;
 border-radius: 10px;
+    margin: 4px
 
 position: relative;
 display: flex;
@@ -443,7 +445,7 @@ flex-direction: column;
         display: flex;
         align-items: center;
         overflow: visible;
-        width: 77%;
+        width: 67%;
         margin-left: 10px;
     }
 }

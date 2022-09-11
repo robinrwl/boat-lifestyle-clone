@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #252525;;
+    color: blanchedalmond;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    box-sizing: border-box !important;
+}
+::-webkit-scrollbar
+{
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 8px;
+}
+
+.main-head h2{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.5rem;
+}
+
+#newarrival_containe-daily-deals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.newarrival_container {
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.newproductbox {
+    width: 24%;
+    height: 490px;
+    background: #e3e3e3;
+    border-radius: 10px;
+    margin: 0px 0px 50px 0px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+@media screen and (max-width: 768px){
+    .main-head h2{
+    font-size: 1.5rem;
+    }
+.newarrival_container {
+    width: 100%;
+}
+.newproductbox {
+    width: 48%;
+    height: 390px;
+    margin: 0px 2px 34px 0px;
+}
+.image-content ,.card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 211px;
+    width: 100%;
+    position: relative;
+}
+.image-content img {
+    height: 100%;
+    width: 100%;
+}
+.card-content{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    max-width: 85%;
+    margin: 0px auto 2%;
+}
+.name {
+    font-size: 13px;
+}
+.description{
+    color: red;
+    font-weight: 600;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.product_price {
+    font-size: 11px;
+}
+.you_save {
+    font-size: 12px;
+
+}
+.button {
+    padding: 6px 0px;
+    width: 100%;
+    font-size: .7rem;
+    height: 29px;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid #f7c20a;
+}
+
+}

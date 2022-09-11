@@ -1151,10 +1151,24 @@ text-decoration: none;
 
 
     
-      <script src="Script/swiper-bundle.min.js"></script>
-<script src="Script/script.js"></script>
+      <script src="swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 <script>
 
+      function first(){
+    document.getElementById("image").src="Slider Image/slide3.gif";
+    
+}
+function fifth(){
+    document.getElementById("image").src="Slider Image/misfit-2_1_1600x.png";
+    
+}
+function Second(){
+    document.getElementById("image").src="Slider Image/slide2.jpg";
+    
+}
+setInterval(Second,3500);
+setInterval(fifth,4500);
     var swiper = new Swiper(".slide-cont", {
   slidesPerView: 4,
   spaceBetween: 25,

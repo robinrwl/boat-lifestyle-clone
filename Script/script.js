@@ -49,28 +49,20 @@ var swiper = new Swiper(".boatslide-cont", {
   });
 
   function first(){
-    document.getElementById("image").src="/Slider Image/slide3.gif";
+    document.getElementById("image").src="Slider Image/slide3.gif";
     
 }
 function fifth(){
-    document.getElementById("image").src="/Slider Image/misfit-2_1_1600x.png";
+    document.getElementById("image").src="Slider Image/misfit-2_1_1600x.png";
     
 }
 function Second(){
-    document.getElementById("image").src="/Slider Image/slide2.jpg";
-    
-}function Third(){
-    document.getElementById("image").src="/Slider Image/slide4.jpg";
+    document.getElementById("image").src="Slider Image/slide2.jpg";
     
 }
-function Forth(){
-    document.getElementById("image").src="/Slider Image/slide5.jpg"; 
-}
-setInterval(Second,2500);
-setInterval(Third,4000);
-setInterval(Forth,5500);
-setInterval(fifth,7000);
-setInterval(first,10000);
+setInterval(Second,3500);
+setInterval(fifth,4500);
+
 
 function hideSidebar() {
   document.getElementById('openSideMenu').checked = false;

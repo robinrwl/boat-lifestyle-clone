@@ -223,6 +223,7 @@ height: 45px;
     justify-content: center;
     margin: 6px 0px 12px 0px;
     height: 101px;
+     overflow: scroll;
 }
 .items-card{
     
